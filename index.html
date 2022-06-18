@@ -14,7 +14,7 @@
 
   function configureAjaxCalls() {
     document.getElementById('btn').addEventListener('click', function() {
-      fetch('test.txt')
+      fetch('ajax_info.txt')
         .then(ajaxPositive)
         .catch(showError);
     });
